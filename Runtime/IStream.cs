@@ -1,5 +1,5 @@
 using System.IO;
-using System.Threading.Tasks;
+using UnityEngine;
 
 namespace ActionCode.AsyncIO
 {
@@ -8,12 +8,12 @@ namespace ActionCode.AsyncIO
     /// </summary>
     public interface IStream
     {
-        Task Write(string path, string content);
-        Task Write(Stream stream, string content);
-        Task Write(Stream stream, byte[] bytes);
+        Awaitable WriteAsync(string path, string content);
+        Awaitable WriteAsync(Stream stream, string content);
+        Awaitable WriteAsync(Stream stream, byte[] bytes);
 
-        Task<string> Read(string path);
-        Task<string> Read(Stream stream);
-        Task<string> Read(StreamReader reader);
+        Awaitable<string> ReadAsync(string path);
+        Awaitable<string> ReadAsync(Stream stream);
+        Awaitable<string> ReadAsync(StreamReader reader);
     }
 }

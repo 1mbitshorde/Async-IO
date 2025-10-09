@@ -7,6 +7,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ## [Unreleased]
 
 ### Changed
+- Rename IStream Read/Write functions to Awaitable Async
 - Update Unity minimum version to 6000.1
 
 ## [1.0.0] - 2022-08-13

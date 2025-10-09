@@ -1,5 +1,5 @@
 using System.IO;
-using System.Threading.Tasks;
+using UnityEngine;
 
 namespace ActionCode.AsyncIO
 {
@@ -8,34 +8,34 @@ namespace ActionCode.AsyncIO
     /// </summary>
     public sealed class AsynchronousStream : IStream
     {
-        public async Task<string> Read(string path)
+        public async Awaitable<string> ReadAsync(string path)
         {
             using var reader = new StreamReader(path);
-            return await Read(reader);
+            return await ReadAsync(reader);
         }
 
-        public async Task<string> Read(Stream stream)
+        public async Awaitable<string> ReadAsync(Stream stream)
         {
             using var reader = new StreamReader(stream);
-            return await Read(reader);
+            return await ReadAsync(reader);
         }
 
-        public async Task<string> Read(StreamReader reader) =>
+        public async Awaitable<string> ReadAsync(StreamReader reader) =>
             await reader.ReadToEndAsync();
 
-        public async Task Write(string path, string content)
+        public async Awaitable WriteAsync(string path, string content)
         {
             await using var writer = new StreamWriter(path);
             await writer.WriteAsync(content);
         }
 
-        public async Task Write(Stream stream, string content)
+        public async Awaitable WriteAsync(Stream stream, string content)
         {
             await using var writer = new StreamWriter(stream);
             await writer.WriteAsync(content);
         }
 
-        public async Task Write(Stream stream, byte[] bytes) =>
+        public async Awaitable WriteAsync(Stream stream, byte[] bytes) =>
             await stream.WriteAsync(bytes, 0, bytes.Length);
     }
 }
