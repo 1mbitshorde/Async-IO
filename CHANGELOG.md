@@ -6,6 +6,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### Changed
+- Update Unity minimum version to 6000.1
+
 ## [1.0.0] - 2022-08-13
 ### Added
 - StreamFactory

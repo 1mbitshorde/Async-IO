@@ -2,7 +2,7 @@
   "name": "com.actioncode.async-io",
   "displayName": "ActionCode-Async IO",
   "version": "1.0.0",
-  "unity": "2019.3",
+  "unity": "6000.1",
   "description": "Async reading/writing files, even on Mono Threads platforms.",
   "keywords": [
     "Asynchronous",
