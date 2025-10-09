@@ -2,7 +2,7 @@
 
 * Async read/write files, even on Mono Threads platforms
 * Unity minimum version: **6000.1**
-* Current version: **1.0.0**
+* Current version: **2.0.0**
 * License: **MIT**
 
 ## Installation
