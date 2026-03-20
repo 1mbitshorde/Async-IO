@@ -1,7 +1,7 @@
 using System.IO;
 using UnityEngine;
 
-namespace ActionCode.AsyncIO
+namespace OneM.AsyncIO
 {
     /// <summary>
     /// Interface used on objects able to streaming a sequence of bytes.

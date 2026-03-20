@@ -2,7 +2,7 @@
 #define ASYNCHRONOUS_PLATFORM
 #endif
 
-namespace ActionCode.AsyncIO
+namespace OneM.AsyncIO
 {
     /// <summary>
     /// Static factory class for <see cref="IStream"/>.

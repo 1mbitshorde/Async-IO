@@ -1,6 +1,6 @@
 {
-    "name": "ActionCode-AsyncIO",
-    "rootNamespace": "ActionCode.AsyncIO",
+    "name": "OneM.AsyncIO",
+    "rootNamespace": "OneM.AsyncIO",
     "references": [],
     "includePlatforms": [],
     "excludePlatforms": [],

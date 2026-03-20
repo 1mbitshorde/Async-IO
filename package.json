@@ -1,7 +1,7 @@
 {
-  "name": "com.actioncode.async-io",
-  "displayName": "ActionCode-Async IO",
-  "version": "2.0.0",
+  "name": "com.1mbitshorde.async-io",
+  "displayName": "1M Bits Horde-Async IO",
+  "version": "3.0.0",
   "unity": "6000.1",
   "description": "Async reading/writing files, even on Mono Threads platforms.",
   "keywords": [
@@ -10,13 +10,13 @@
     "Output"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/HyagoOliveira/Async-IO#readme",
+  "homepage": "https://github.com/1mbitshorde/Async-IO#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/HyagoOliveira/Async-IO.git"
+    "url": "https://github.com/1mbitshorde/Async-IO.git"
   },
-  "documentationUrl": "https://github.com/HyagoOliveira/Async-IO#readme",
-  "changelogUrl": "https://github.com/HyagoOliveira/Async-IO/CHANGELOG.md",
+  "documentationUrl": "https://github.com/1mbitshorde/Async-IO#readme",
+  "changelogUrl": "https://github.com/1mbitshorde/Async-IO/CHANGELOG.md",
   "author": {
     "name": "Hyago Oliveira",
     "email": "hyagogow@gmail.com"

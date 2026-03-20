@@ -1,7 +1,7 @@
 using System.IO;
 using UnityEngine;
 
-namespace ActionCode.AsyncIO
+namespace OneM.AsyncIO
 {
     /// <summary>
     /// Asynchronously streaming a sequence of bytes.
